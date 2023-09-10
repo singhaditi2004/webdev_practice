@@ -1,0 +1,121 @@
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+#top-h {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -0.02rem;
+    position: absolute;
+    left: 6vh;
+    top: 3vh;
+}
+
+#scarecrow {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.10);
+    height: 40%;
+    width: 35%;
+    position: absolute;
+    top: 32vh;
+    left: 6vh;
+}
+
+#main-h {
+    color: var(--gray-1, #333);
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+}
+
+#text1 {
+    color: var(--gray-2, #4F4F4F);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0525rem;
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+}
+
+#button {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.03063rem;
+    text-transform: uppercase;
+    background: #333333;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    height: 50px;
+    padding: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#button:hover {
+    width: 190px;
+    height: 60px;
+    box-shadow: 0px 2px 24px 0px rgb(235, 202, 202);
+}
+
+@media (max-width: 768px) {
+    #top-h {
+        position: absolute;
+        top: 2vh;
+        left: 15vw;
+
+    }
+
+    #scarecrow {
+        width: 80%;
+        left: 15vw;
+        position: absolute;
+        top: 15vh;
+    }
+
+    #main-h {
+        font-size: 2.6rem;
+        left: 50vw;
+        transform: translateX(-50%);
+        position: absolute;
+        top: 55vh;
+        width:70vw;
+    }
+
+    #text1 {
+        font-size: 1.2rem;
+        left: 50vw;
+        transform: translateX(-50%);
+        position: absolute;
+        top: 72vh;
+        width:70vw;
+    }
+
+    #button {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 90vh;
+        padding: 10px;
+        left: 30vw;
+    }
+
+    #button:hover {
+        width: 150px;
+        height: 50px;
+    }
+}
